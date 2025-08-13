@@ -1,0 +1,27 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "Basit Express.js API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.0",
+    "expo-image-manipulator": "^13.1.7",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0",
+    "multer": "^2.0.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "expo-file-system": "~18.1.11"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
